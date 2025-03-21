@@ -59,4 +59,10 @@ void display()
     cout << "Total Pass = " << n - 1 << endl; //cout element movement 
     cout << "=================================" << endl; // output ke layar
     cout << "Element Array yang telah tersusun" << endl; // output ke layar
+
+    for (int j = 0; j < n; j++)
+    { // looping dengan j dimulai dari 0 hinggan n-1
+        cout << arr[j] << endl; // output ke layar
+    }
+    cout << endl; // output baris kosong
 }
